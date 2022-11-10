@@ -110,6 +110,27 @@ svg{
     padding-right: 1.5em;
 }
 
+/* Footer */
+.premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.premium .premiumText{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.premium .subText{
+    color: var(--color-cuarto);
+    word-spacing: 0.3em;
+}
+
+.pricingButton{
+    
+}
 /* MOBILE */
 
 @media screen and (max-width: 600px) {
