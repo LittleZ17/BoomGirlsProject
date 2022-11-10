@@ -109,6 +109,7 @@ svg{
 }
 
 
+
 /* --- Main --- */
 
 .main{
@@ -146,6 +147,28 @@ svg{
     background-color: var(--color-tercero);
     color: var(--color-segundo);
     border-radius: 35px;
+}
+
+/* Footer */
+.premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.premium .premiumText{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.premium .subText{
+    color: var(--color-cuarto);
+    word-spacing: 0.3em;
+}
+
+.pricingButton{
+    
 }
 
 
