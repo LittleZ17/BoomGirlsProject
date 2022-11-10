@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 
 :root{
@@ -6,9 +6,7 @@
     --color-segundo: white;
     --color-tercero: #01F382;
     --color-cuarto: #67687D;
-
-    --letra-primaria: 'Amiko', sans-serif;
-    ;
+    --letra-primaria: 'Lato', sans-serif;
     --letra-secundaria: ;
 }
 
@@ -34,7 +32,7 @@ body{
 img{
     max-width: 100%;
     width: 100%;
-    display: block;
+    /* display: block; */
 }
 
 a{
@@ -44,7 +42,7 @@ a{
 li{
     list-style-type: none;
 }
-h1, h2, h3, h4, a, p, span, strong{
+h1, h2, h3, h4, a, p, span, button{
     font-size: 1em;
     font-weight: inherit;
     font-style: inherit;
@@ -65,7 +63,7 @@ svg{
 
     display: flex;
     flex-flow: row-reverse wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -110,6 +108,47 @@ svg{
     padding-right: 1.5em;
 }
 
+
+
+/* --- Main --- */
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5%;
+
+
+}
+/* .main .textBox{ */
+ 
+
+.main .slogan{
+    display: flex;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.main .img{
+    width: 50%;
+    display: flex;
+    /* margin-left: 5%; */
+    /* margin-left: 10%;  */
+}
+
+.main .info{
+    color: var(--color-cuarto);
+    font-size: 1.1em;
+    margin: 9% 0;
+}
+.main .greenbutton{
+    height: 10%;
+    width: 40%;
+    background-color: var(--color-tercero);
+    color: var(--color-segundo);
+    border-radius: 35px;
+}
+
 /* Footer */
 .premium{
     display: flex;
@@ -131,6 +170,8 @@ svg{
 .pricingButton{
     
 }
+
+
 /* MOBILE */
 
 @media screen and (max-width: 600px) {
