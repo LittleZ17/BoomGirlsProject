@@ -15,6 +15,6 @@ boton.addEventListener('click',() =>{
 //     dom.play();
 // }
 
-// boton.addEventListener('click', () => {
+// -----.addEventListener('click', () => {
 //     sound("crash.wav");
 // });
