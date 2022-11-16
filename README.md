@@ -6,13 +6,14 @@ The project has been requested by DOMBoom, a musical instrument company.
 The goal is to promote an electronic drum kit as the star sales product of the company.   
    
    
-## Project description
-​     1) Desktop version.  
+## Project description   
+​        
+     1) Desktop version.  
      2) Mobile version.   
      3) Overlay each button on the drum pads and be responsive.     
      4) Each pad should emit sound once we click on it.   
         
-        ​
+   ​
 ## Mobile Graphic reference
 ​
 ![Mobile](https://femcoders.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb40a38f6-5832-4bdf-8303-2f084c34a20d%2FWhatsApp_Image_2021-10-29_at_08.46.11.jpeg?table=block&id=c1a0021e-dc27-4e55-9445-b2c96f2e97bb&spaceId=b1698d55-b015-4275-96b0-7b32bc5e291c&width=2000&userId=&cache=v2)
