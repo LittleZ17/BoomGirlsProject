@@ -9,7 +9,8 @@ const tom2 = document.querySelector('#tom2');
 const tom3 = document.querySelector('#tom3');
 const tom4 = document.querySelector('#tom4');
 const hit = document.querySelector('#hit');
-const redoblante = document.querySelector('#redoblante');
+const redoblante = document.getElementById('#redoblante');
+
 
 function toggleMenu(){
     nav.classList.toggle('activo');
@@ -21,10 +22,9 @@ boton.addEventListener('click',() =>{
 
 function sound(nameSound){
     const dom = new Audio(nameSound);
-    dom.play();
 }
 crash.addEventListener('click', () => {
-    sound("./sounds/crash.wav");
+        sound("./sounds/crash.wav");
 });
 bombo.addEventListener('click', () => {
     sound("./sounds/bombo (1).wav");
