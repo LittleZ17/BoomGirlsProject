@@ -1,17 +1,16 @@
 # :boom:BoomGirlsProject
-We create an interactive drumkit with sound on a landing page.\
+We create an interactive drumkit with sound on a landing page.
    
-The project has been requested by DOMBoom, a musical instrument company.\   
+The project has been requested by DOMBoom, a musical instrument company. 
    
-The goal is to promote an electronic drum kit as the star sales product of the company.\   
+The goal is to promote an electronic drum kit as the star sales product of the company.   
    
    
 ## Project description
-​     1) Desktop version.\  
-     2) Mobile version.\  
-     2) Mobile version.\ 
-     3) Overlay each button on the drum pads and be responsive.\  
-     4) Each pad should emit sound once we click on it.\  
+​     1) Desktop version.  
+     2) Mobile version.   
+     3) Overlay each button on the drum pads and be responsive.     
+     4) Each pad should emit sound once we click on it.   
         
         ​
 ## Mobile Graphic reference
@@ -42,15 +41,6 @@ The goal is to promote an electronic drum kit as the star sales product of the c
 * [x] Events and event Handler (Javascript)
 * [x] Funciones (Javascript)
 * [x] DOM (Javascript - HTML)
-​
-​
-## Color Reference
-​| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Blue | ![#010020](https://via.placeholder.com/10/010020?text=+)|
-| Green| ![#01F382](https://via.placeholder.com/10/01F382?text=+)|
-| White | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
-| Grey| ![#67687D](https://via.placeholder.com/10/67687D?text=+) #67687D|
 ​
 ​
 ## Documentation
