@@ -1,6 +1,5 @@
 // Al hacer clik en el HB activo una clase
-const boton = document.querySelector('.boton');
-const nav = document.querySelector('.nav');
+
 
 const crash = document.querySelector('#crash');
 const bombo = document.querySelector('#bombo');
@@ -10,14 +9,6 @@ const tom3 = document.querySelector('#tom3');
 const tom4 = document.querySelector('#tom4');
 const hit = document.querySelector('#hit');
 const redoblante = document.getElementById('#redoblante');
-
-
-function toggleMenu(){
-    nav.classList.toggle('activo');
-}
-boton.addEventListener('click',() =>{
-    toggleMenu();
-})
 
 
 function sound(nameSound){
