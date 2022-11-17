@@ -1,5 +1,3 @@
-// Al hacer clik en el HB activo una clase
-
 
 const crash = document.querySelector('#crash');
 const bombo = document.querySelector('#bombo');
@@ -8,11 +6,12 @@ const tom2 = document.querySelector('#tom2');
 const tom3 = document.querySelector('#tom3');
 const tom4 = document.querySelector('#tom4');
 const hit = document.querySelector('#hit');
-const redoblante = document.getElementById('#redoblante');
+const redoblante = document.querySelector('#redoblante');
 
 
 function sound(nameSound){
     const dom = new Audio(nameSound);
+    dom.play();
 }
 crash.addEventListener('click', () => {
         sound("./sounds/crash.wav");
