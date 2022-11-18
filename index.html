@@ -5,39 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
     <title>DomBoom</title>
 </head>
 <body>
-    <header class="header">
-        <button class="boton">
-            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-            </svg>
-        </button>
-        <nav class="nav activo">
-            <ul class="ul">
-                <li class="li"><a href="#">Premium</a></li>
-                <li class="li"><a href="#">Help</a></li>
-                <li class="li"><a href="#">Download</a></li>
-                <li class="li green"><a href="#">Sign Up</a></li>
-                <li class="li"><a href="#">Log In</a></li>
-            </ul>
-        </nav>
+    <header class="header">      
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li class="li"><a href="#"></a>Premium</a></li>
+            <li class="li"><a href="#"></a>Help</a></li>
+            <li class="li"><a href="#"></a>Download</a></li>
+            <li class="li green"><a href="#"></a>Sign Up</a></li>
+            <li class="li"><a href="#"></a>Log In</a></li>
+        </ul>     
         <h1 class="logo">
             <img src="./assets/logo.png" alt="DomBoom">
         </h1>
     </header>
-
     <main class="main">
         <div class="textBox">
             <h2 class="slogan">Music for <br>everyone.</h2>
             <p class="info">Millions of songs. No credit card needed.</p>
-            <button class="greenbutton">Hit the boom.</button>
+            <button class="greenbutton"> <a href="#premiumSection">Hit the Boom</a></button>
         </div>
-        <div class="img"><img src="./assets/drumkit.png" alt=""></div>
+        <div class="imagen">
+            <img src="./assets/drumkit.png" alt="drumkit">
+            <button class="circle small" id="crash"></button>
+            <button class="circle small" id="bombo"></button>
+            <button class="circle big" id="tom1"></button>
+            <button class="circle big" id="tom2"></button>
+            <button class="circle big" id="tom3"></button>
+            <button class="circle big" id="tom4"></button>
+            <button class="circle small" id="hit"></button>
+            <button class="circle small" id="redoblante"></button>        </div>
     </main>
-    
-    <script src="index.js"></script>   
+
+    <div class="premium" id="premiumSection">
+        <button class="circle drop">
+            <p>Hit</p>
+        </button>
+        <h3 class="premiumText">Try Premium free for 1 month.
+        </h3>
+        <p class="subText">Play millions of songs ad-free, on-demand, and offline.
+        </p>
+        <button class="whiteButton">SEE PRICING
+        </button>
+    </div> 
+    <script src="index.js"></script> 
 </body>
 </html>
