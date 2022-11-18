@@ -56,7 +56,7 @@ The goal is to promote an electronic drum kit as the star sales product of the c
 
 ## :infinity:Prototype
 
-[Prototype]https://www.figma.com/proto/O1sNjTD6bATNnihPXwB7XY/BoomGirls?node-id=126%3A22&scaling=scale-down&page-id=1%3A5&starting-point-node-id=126%3A22 
+[Prototype](https://www.figma.com/proto/O1sNjTD6bATNnihPXwB7XY/BoomGirls?node-id=126%3A22&scaling=scale-down&page-id=1%3A5&starting-point-node-id=126%3A22)
 ​
 ​
 ## :raising_hand_woman:Authors
