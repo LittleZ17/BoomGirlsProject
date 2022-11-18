@@ -1,0 +1,124 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+ }
+ .main .textBox{
+     display: flex;
+     flex-direction: column;
+     width: 25%;
+ }
+ 
+ .main .slogan{
+     display: flex;
+     font-size: 65px;
+     font-weight: 600;
+ }
+ 
+ .main .info{
+     color: var(--color-fourth);
+     font-size: 1.1em;
+     margin: 5% 0;
+ }
+ .main .greenbutton{
+     height: 12%;
+     width: 40%;
+     background-color: var(--color-third);
+     color: var(--color-second);
+     border-radius: 35px;
+     cursor: pointer;
+ }
+ 
+ .main .imagen{
+     width: 40%;
+     align-items: center;
+     filter: drop-shadow(20px 10px 200px var(--color-shadow));
+ }
+ .main .imagen img{
+     display:inline-block;
+     position:relative;
+ }
+ 
+ .circle{
+     position: absolute;
+     background-color: rgba(255, 255, 255, .01);
+     border-radius: 50%;
+ }
+ .imagen .small{
+     height: 21.5%;
+     width: 16%;
+ }
+ .imagen .big{
+     height: 30%;
+     width: 21%;
+ }
+ #crash{
+     top: 5.8%;
+     left: 2%;
+ }
+ #bombo{
+     top: 28.5%;
+     left: 9.5%;
+ }
+ #tom1{
+     top: 15.5%;
+     left: 27%;
+ }
+ #tom2{
+     top: 15.5%;
+     left: 51%;
+ }
+ #tom3{
+     top: 52%;
+     left: 15%;
+ }
+ #tom4{
+     top: 52%;
+     left: 63%;
+ }
+ #hit{
+     top: 5.8%;
+     right: 2.8%;
+ }
+ #redoblante{
+     top: 28.5%;
+     left: 74%;
+ }
+ 
+ @media screen and (max-width: 600px) {
+    
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main .imagen{
+        margin: 0;
+        width: 95%;
+        justify-content: center;
+        align-self: center;
+        filter: drop-shadow(20px 10px 200px var(--color-fourth));
+    }
+
+    .main .textBox{
+        width: 95%;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        /* margin: 4% 20%; */
+        /* justify-content: center; */
+    }
+    .main .textBox p{
+        font-size: 1em;
+    }
+    .main .textBox h2{
+        font-size: 3.5em;
+    }
+
+    .main .greenbutton{
+        height: 3em;
+        width: 10em;
+        margin-top: 2%;
+    }
+ }

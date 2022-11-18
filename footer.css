@@ -1,0 +1,35 @@
+.premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.premium .circle{
+    display: none;
+}
+
+.premium .premiumText{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.premium .subText{
+    font-size: 1.1em;
+    color: var(--color-fourth);
+    margin: 1em 0;
+}
+
+.premium .whiteButton{
+    height: 3em;
+    width: 10%;
+    background-color: var(--color-second);
+    color: var(--color-fifth);
+    /* font-size: medium; */
+    font-weight: 600;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    
+}

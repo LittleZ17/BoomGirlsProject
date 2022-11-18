@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    padding: 3em 0;
+
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header img{
+    width: 100%;
+}
+.menu .green{
+    color: var(--color-third);
+    border-right: 1px solid var(--color-fourth);
+    padding-right: 1.5em;
+}
+@media screen and (max-width: 600px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        padding: 5% 0;
+    }
+}
