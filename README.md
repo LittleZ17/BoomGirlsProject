@@ -49,9 +49,9 @@ The goal is to promote an electronic drum kit as the star sales product of the c
 [Documentation](https://femcoders.notion.site/Hit-the-DOMboom-3a2028b203f94b6dbb079a0b5fddf06c)
 ​
 ​
-## Demo
+## :sparkle:Demo
 ​
-Insert gif or link to demo
+[Demo](https://littlez17.github.io/BoomGirlsProject/)
 ​
 ​
 ## :raising_hand_woman:Authors
