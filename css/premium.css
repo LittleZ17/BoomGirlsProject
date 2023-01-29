@@ -1,7 +1,7 @@
 
 @media screen and (max-width: 600px) {
     .premium{
-        margin: 8em .5em;
+        margin: 10% 5%;
     }
     .premium .circle{
         display: block;
@@ -26,6 +26,6 @@
     .premium .whiteButton{
         width: 30%;
         margin-top: 5%;
-        margin-bottom: 30%;
+        /* margin-bottom: 30%; */
     }
 }
